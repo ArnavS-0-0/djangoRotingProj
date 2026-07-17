@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<header>
+    <h1>Route Results</h1>
+</header>
+
+<div class="result-item">
+    <p><span class="result-label">Source:</span> {{ source }}</p>
+</div>
+
+<div class="result-item">
+    <p><span class="result-label">Destination:</span> {{ destination }}</p>
+</div>
+{% endblock %}
